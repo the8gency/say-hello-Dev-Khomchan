@@ -1,0 +1,260 @@
+/* ------------------------------------------------- HEADER */
+::selection {
+    color: #fff;
+    background-color: #ee4e48;
+}
+
+a {
+    transition: all 0.2s ease;
+}
+
+a:hover {
+    color: #ee4e48;
+}
+
+main {
+    padding: 0;
+}
+
+section,
+main.container-static, 
+figure {
+    background-color: transparent;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ee4e48;
+    max-height: 100vh;
+}
+
+header figure, .header--description, .col, .personal-info {
+    flex: 1;
+}
+
+.header--img {
+    background-color: #1d1d1d;
+    padding: 4rem;
+    background-image: url('../images/Mezelf-effect.jpg');
+    background-size: 35rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: block;
+}
+
+.header--description {
+    margin: auto;
+    padding: 0 4rem;
+    color: #f5F5F5;
+    width: 40%;
+}
+
+.header--description__title {
+    text-transform: uppercase;
+    font-size: 4.5rem;
+    line-height: 1.2;
+    margin-bottom: 2.5rem;
+    width: 30rem;
+    max-width: 100%;
+}
+
+.header--description p {
+    width: 32rem;
+    max-width: 100%;
+    font-size: 1.2rem;
+}
+/* ------------------------------------------------- PERSONAL INFO */
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    margin: 4rem 0;
+    padding-bottom: 4rem;
+    border-bottom: 0.1rem solid #c2c2c2;
+}
+
+.title span {
+    color: #ee4e48;
+    margin-right: 0.5rem;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.personalia--ul {
+    flex: 1;
+}
+
+.personalia--ul:nth-of-type(2) {
+    font-family: RobotoMedium;
+}
+
+.opleiding {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.opleiding span {
+    margin-left: auto;
+    color: #ee4e48;
+    font-family: RobotoMedium;
+}
+
+.vertical-line {
+    border-right: 0.1rem solid #c2c2c2;
+    margin: 0 1rem;
+}
+
+.opleiding--span {
+    color: #ee4e48;
+    font-family: RobotoMedium;
+}
+
+.levels {
+    justify-content: center;
+    margin-top: 0.5rem;
+}
+
+.block--full {
+    width: 1rem;
+    height: 1rem;
+    background-color: #ee4e48;
+    border: solid 0.15rem #ee4e48;
+    margin: 0.25rem;
+    border-radius: 2px;
+}
+
+.block--hollow {
+    width: 1rem;
+    height: 1rem;
+    background-color: #fff;
+    border: solid 0.15rem #ee4e48;
+    margin: 0.25rem;
+    border-radius: 2px;
+}
+
+.skills {
+    justify-content: center;
+}
+
+.skills.flex {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.skills .col {
+    flex: 0;
+    width: 35rem;
+    flex-grow: 1;
+    margin-bottom: 1rem;
+}
+
+.skills .col img {
+    width: 5rem;
+    margin: auto;
+}
+
+/* .skills--title {
+    text-align: center;
+    width: 100%;
+} */
+
+.languages {
+    margin-top: 4.5rem;
+}
+
+.languages .col img {
+    width: 6rem;
+    margin: auto;
+}
+
+.languages.flex {
+    align-items: center;
+}
+
+.languages h5 {
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+/* .languages--title {
+    text-align: center;
+} */
+
+.talen-color {
+    background-color: #1d1d1d;
+    border: solid 0.15rem #1d1d1d;
+}
+
+.talen-color__hollow {
+    border: solid 0.15rem #1d1d1d;
+}
+
+.time-line {
+    border-left: solid 0.1rem #c2c2c2;
+}
+
+.time-line section {
+    padding-left: 1rem;
+    margin: 2rem 0;
+}
+
+.time-info {
+    font-family: RobotoMedium;
+}
+
+.time-title {
+    text-transform: uppercase;
+}
+
+.time {
+    color: #ee4e48;
+    font-family: RobotoMedium;
+    margin-left: auto;
+}
+
+.socials {
+    margin-bottom: 2.5rem;
+}
+
+.icons {
+    width: 1.8rem;
+}
+
+.contact .icons {
+    width: 1.5rem;
+}
+
+.socials ul li, 
+.contact ul li {
+    margin-bottom: 1rem;
+}
+
+.socials ul li:nth-last-of-type(1),
+.contact ul li:nth-last-of-type(1) {
+    margin-bottom: 0;
+}
+
+a.flex img {
+    margin-right: 0.5rem;
+    height: 100%;
+}
+
+a.flex {
+    align-items: center;
+}
+
+.margin-top {
+    margin-top: 1.7rem;
+    padding-left: 1.7rem;
+}
+
+h6 {
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
